@@ -22,3 +22,8 @@ a {
     font-size: 24px;
     color: #f9faf8;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}

@@ -5,35 +5,62 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin: 0px;
 }
 
 .header {
-    background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.banner {
+    align-items: flex-start;
     background-color: #1f2937;
+}
+.top-left {
     color: #f9faf8;
-    display: flex;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-    color: #e5e7eb;
+    padding: 0px 0px 100px 200px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    padding: 10px 0px 120px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.top-right {
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0px 200px 100px 100px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 100px;
+}
+.card {
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#upper-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 1px solid #3882f6;
+    padding: 4px 16px;
+    color: #e5e7eb;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 .info {

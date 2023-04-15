@@ -8,6 +8,11 @@ div {
     justify-content: space-around;
     align-items: center;
 }
+
+.banner {
+    display: flex;
+}
+
 ul {
     list-style-type: none;
     display: flex;

@@ -147,5 +147,18 @@ color: #e5e7eb;
 }
 
 .sign-up {
-    color: lightgray;
+    color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
 }

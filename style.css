@@ -126,6 +126,9 @@ padding: 8px 36px;
 color: #e5e7eb;
 }
 
+.action {
+    padding: 100px;
+}
 
 .modal {
     display: flex;

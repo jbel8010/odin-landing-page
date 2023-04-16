@@ -115,3 +115,11 @@ a {
     font-weight: bold;
     color: #1f2937;
 }
+
+#lower-button {
+background-color: #3882f6;
+border-radius: 8px;
+border: 1px solid #e5e7eb;
+padding: 4px 16px;
+color: #e5e7eb;
+}
